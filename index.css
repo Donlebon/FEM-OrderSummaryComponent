@@ -1,0 +1,103 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Red Hat Display', sans-serif;
+    background-image: url("pattern-background-desktop.svg");
+    background-repeat: no-repeat;
+    background-color: hsl(225, 100%, 94%);
+}
+
+.container{
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 3em;
+}
+
+.hero-pic{
+    vertical-align: bottom;
+    border-top-left-radius: 2em;
+    border-top-right-radius: 2em;
+    width: 24rem;
+}
+
+.card-container{
+    width: 24rem;
+    background-color: white;
+    margin: auto;
+    border-bottom-left-radius: 2em;
+    border-bottom-right-radius: 2em;
+}
+
+.order-title{
+    margin-top: 0px;
+    padding-top: 1em;
+}
+
+.card-features{
+    width: 75%;
+    margin: auto;
+    color: gray;
+    margin-bottom: 1em;
+}
+
+.border-style{
+    border-radius: 0.5em;
+}
+
+.tier-plan{
+    display: flex;
+    justify-content: space-around;
+    background-color: hsl(225, 100%, 98%);  
+    width: 75%;
+    margin: auto;
+    margin-bottom: 1.5em;
+}
+
+.music-icon{
+    height: 2.5rem;
+    width: 2.5rem;
+    margin-top: 1em;
+    padding-left: 1.3em;
+}
+
+.payment-tier{
+    font-size: 1rem;
+}
+
+.price{
+    color: gray;
+    font-weight: normal;
+}
+
+.change-button{
+    font-size: 0.8rem;
+    margin-left: 3em;
+    margin-top: 2.2em;
+    margin-right: 1em;
+}
+
+.payment-button{
+    font-size: 0.8rem;
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    width: 75%;
+    margin: auto;
+    margin-bottom: 2em;
+    padding-top: 0.8em;
+    padding-bottom: 0.8em;
+    box-shadow: 8px 8px 20px gray;
+}
+
+.cancel-button{
+    color: gray;
+    font-size: 0.8rem;
+    padding-bottom: 2em;
+}
+
+.payment-button:hover{
+    opacity: 0.5;
+}
+
+.pointer{
+    cursor: pointer;
+}
